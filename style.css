@@ -1,0 +1,46 @@
+body {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(221, 166, 135, 1) 35%, rgba(255, 0, 99, 1) 100%);
+    font-family: sans-serif;
+}
+
+.container {
+    width: 39.25rem;
+    height: 15rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px -4px rgba(0, 0, 0, 0.3);
+    padding: 7px 20px 0px 20px;
+}
+
+.audio {
+    width: 90%;
+    height: 200px;
+    position: absolute;
+    right: -5px;
+    top: -20px;
+}
+
+.audio-track {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.fa-solid {
+    left: 80px;
+    color: red;
+}
+
+.song-name {
+    margin-bottom: 40px;
+}
+
+.writer {
+    color: red;
+}
